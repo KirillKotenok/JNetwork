@@ -1,5 +1,5 @@
 <#import "parts/common.ftl" as c>
 <@c.page>
-    <div>Hello, user</div>
-    <a href="/main">Main page</a>
+  <h5>Hello</h5>
+    <div>Welcome to jNetwork</div>
 </@c.page>
