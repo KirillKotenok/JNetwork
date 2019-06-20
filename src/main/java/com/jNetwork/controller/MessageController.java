@@ -55,7 +55,7 @@ public class MessageController {
         Page<MessageDto> page = messageService.messageList(pageable, filter, user);
 
         model.addAttribute("page", page);
-        model.addAttribute("url", "/main");
+        model.addAttribute("url", "main");
         model.addAttribute("filter", filter);
 
         return "main";
@@ -88,7 +88,7 @@ public class MessageController {
 
         model.addAttribute("messages", messages);
 
-        return "main";
+        return "redirect:/main";
     }
 
     private void saveFile(@Valid Message message, @RequestParam("file") MultipartFile file) throws IOException {

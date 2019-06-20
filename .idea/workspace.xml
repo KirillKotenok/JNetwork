@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="uml://JAVA/com.jNetwork.controller.ControllerUtils" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0f9c14-858d-4448-808d-ac843e429653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jNetwork/util/RedirectInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10b3b530-74f7-4f2b-a62e-038a39d22b12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10b3b530-74f7-4f2b-a62e-038a39d22b12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10b3b530-74f7-4f2b-a62e-038a39d22b12/storage_v2/_src_/database/JNetwork.hOow2A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10b3b530-74f7-4f2b-a62e-038a39d22b12/storage_v2/_src_/database/JNetwork.hOow2A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jNetwork/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jNetwork/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jNetwork/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jNetwork/repos/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jNetwork/repos/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jNetwork/repos/MessageRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jNetwork/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jNetwork/config/MvcConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,37 +84,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/util/RedirectInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/MvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -157,8 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/config/EncriptionConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/ControllerUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/domain/dto/CaptchaResponseDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/domain/dto/MessageDto.java" />
@@ -179,11 +178,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/repos/MessageRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/util/RedirectInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java" />
       </list>
     </option>
   </component>
@@ -222,6 +223,42 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
+              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
+              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
+              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="jNetwork" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
+              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="jNetwork" type="1f31426a:PackageElementNode" />
+              <item name="config" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
+              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="jNetwork" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,6 +315,68 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jNetwork" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jNetwork" type="b2602c69:ProjectViewProjectNode" />
@@ -352,42 +451,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
-              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
-              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
-              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="jNetwork" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
-              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="jNetwork" type="1f31426a:PackageElementNode" />
-              <item name="config" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="jNetwork" type="58d84e3e:PackageViewProjectNode" />
-              <item name="jNetwork" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="jNetwork" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,6 +472,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -553,7 +617,13 @@
       <workItem from="1560524934554" duration="616000" />
       <workItem from="1560525644352" duration="94000" />
       <workItem from="1560536933348" duration="13654000" />
-      <workItem from="1560585310899" duration="10123000" />
+      <workItem from="1560585310899" duration="10272000" />
+      <workItem from="1560685676720" duration="4704000" />
+      <workItem from="1560853282483" duration="616000" />
+      <workItem from="1560887415088" duration="2281000" />
+      <workItem from="1561020307430" duration="1205000" />
+      <workItem from="1561042510666" duration="5898000" />
+      <workItem from="1561071639044" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1560291148270</created>
@@ -583,17 +653,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560618073366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed bugs">
+      <created>1560620450410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560620450410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119805000" />
+    <option name="totallyTimeSpent" value="135250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2342282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -603,8 +680,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.57223797" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.34702548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20538244" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.50708216" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46600565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -616,14 +693,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4986577" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.2917847" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.04249292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.18657719" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.0704698" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.20268457" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3295302" />
@@ -673,129 +750,10 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Add" />
     <MESSAGE value="Add: styles, likes, subscriber/subscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: styles, likes, subscriber/subscription" />
+    <MESSAGE value="Fixed bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/message">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="7a3ad780-43eb-4140-a9a3-b0e89c889630">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="2" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_admin.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V3__Encode_passwords.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/user_role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="0f36951f-537e-4378-8d55-0e3b6eb3b0cc">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="ctid" enabled="false" position="-1" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties" />
-    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/usr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="96bcad41-fef8-44a6-82da-013ecd36202a">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_subscriptions_table.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/MailConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.9.Final/hibernate-core-5.3.9.Final.jar!/org/hibernate/pretty/MessageHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/domain/util/MessageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__Add_message_likes.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/service/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/EncriptionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -804,49 +762,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/ControllerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1096#1117#1" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,24 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2311#2312#0" expanded="true" />
-            <element signature="e#2342#2343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/repos/UserRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -920,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -934,24 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -980,13 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1025,49 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/domain/dto/MessageDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/repos/MessageRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#171#1" expanded="true" />
-            <element signature="e#0#190#1" expanded="true" />
-            <element signature="e#0#196#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/service/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1075,6 +901,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__Add_message_likes.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_subscriptions_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1088,22 +931,826 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/MvcConfig.java">
+    <entry file="uml://JAVA/com.jNetwork.repos.UserRepo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.repos.UserRepo</OriginalElement>
+          <nodes>
+            <node x="34.0" y="-54.0">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+            <node x="608.0" y="42.0">org.springframework.data.repository.PagingAndSortingRepository</node>
+            <node x="323.0" y="22.0">org.springframework.data.repository.Repository</node>
+            <node x="334.0" y="-55.0">org.springframework.stereotype.Indexed</node>
+            <node x="321.0" y="112.0">org.springframework.data.repository.CrudRepository</node>
+            <node x="613.5" y="266.0">org.springframework.data.jpa.repository.JpaRepository</node>
+            <node x="186.0" y="424.0">com.jNetwork.repos.MessageRepo</node>
+            <node x="668.0" y="166.0">com.jNetwork.repos.UserRepo</node>
+            <node x="478.79166666666674" y="-56.0">org.springframework.data.repository.NoRepositoryBean</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.jNetwork.repos.MessageRepo" target="org.springframework.data.repository.CrudRepository">
+              <point x="0.0" y="-46.5" />
+              <point x="-62.0" y="134.5" />
+            </edge>
+            <edge source="com.jNetwork.repos.UserRepo" target="org.springframework.data.jpa.repository.JpaRepository">
+              <point x="0.0" y="-35.5" />
+              <point x="0.0" y="134.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="76.00000000000001" y="-134.5" />
+              <point x="872.5" y="285.0" />
+              <point x="905.5" y="265.0" />
+              <point x="902.5" y="25.0" />
+              <point x="872.9583333333333" y="-7.0" />
+              <point x="53.66666666666663" y="13.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+              <point x="-62.0" y="-134.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository">
+              <point x="-58.25" y="-35.5" />
+              <point x="577.25" y="322.0" />
+              <point x="573.0" y="466.0" />
+              <point x="62.0" y="134.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor">
+              <point x="-76.0" y="-134.5" />
+              <point x="569.5" y="531.0" />
+              <point x="145.0" y="531.0" />
+              <point x="0.0" y="79.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.PagingAndSortingRepository">
+              <point x="0.0" y="-134.5" />
+              <point x="0.0" y="35.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="62.0" y="-134.5" />
+              <point x="575.0" y="129.0" />
+              <point x="572.625" y="33.0" />
+              <point x="-53.666666666666686" y="13.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="58.250000000000014" y="-35.5" />
+              <point x="788.75" y="7.0" />
+              <point x="798.2916666666667" y="-32.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="268.0" y="176.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jNetwork.domain.util.MessageHelper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.domain.util.MessageHelper</OriginalElement>
+          <nodes>
+            <node x="1050.6583333333333" y="366.0">javax.persistence.Entity</node>
+            <node x="1125.6583333333333" y="605.0">com.jNetwork.domain.Message</node>
+            <node x="263.0" y="1128.0">com.jNetwork.domain.dto.MessageDto</node>
+            <node x="0.0" y="1293.0">com.jNetwork.domain.dto.CaptchaResponseDto</node>
+            <node x="305.55833333333334" y="11.0">java.io.Serializable</node>
+            <node x="269.0" y="220.0">org.springframework.security.core.GrantedAuthority</node>
+            <node x="653.875" y="370.0">com.jNetwork.domain.User</node>
+            <node x="482.0" y="1128.0">com.jNetwork.domain.util.MessageHelper</node>
+            <node x="816.0" y="176.0">javax.persistence.Table</node>
+            <node x="9.0" y="99.0">java.lang.Enum</node>
+            <node x="165.18333333333334" y="481.0">com.jNetwork.domain.Role</node>
+            <node x="450.0" y="154.0">org.springframework.security.core.userdetails.UserDetails</node>
+            <node x="0.0" y="0.0">java.lang.Comparable</node>
+            <node x="14.5" y="1128.0">com.fasterxml.jackson.annotation.JsonIgnoreProperties</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.security.core.userdetails.UserDetails" target="java.io.Serializable">
+              <point x="0.0" y="-90.5" />
+              <point x="623.0" y="74.0" />
+              <point x="415.55833333333334" y="74.0" />
+              <point x="44.0" y="13.5" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="60.0" y="-145.5" />
+              <point x="189.0" y="74.0" />
+              <point x="327.55833333333334" y="74.0" />
+              <point x="-44.0" y="13.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.Role" target="java.lang.Enum">
+              <point x="-38.75" y="-24.5" />
+              <point x="203.93333333333334" y="415.0" />
+              <point x="129.0" y="415.0" />
+              <point x="0.0" y="145.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.dto.CaptchaResponseDto" target="com.fasterxml.jackson.annotation.JsonIgnoreProperties">
+              <point x="0.0" y="-57.5" />
+              <point x="0.0" y="57.5" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.lang.Comparable">
+              <point x="-60.0" y="-145.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.Message" target="javax.persistence.Entity">
+              <point x="0.0" y="-156.5" />
+              <point x="29.5" y="24.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.User" target="javax.persistence.Entity">
+              <point x="115.33333333333337" y="-321.5" />
+              <point x="1027.2083333333335" y="384.0" />
+              <point x="1155.1583333333333" y="415.0" />
+              <point x="-29.5" y="24.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.Role" target="org.springframework.security.core.GrantedAuthority">
+              <point x="38.75" y="-24.5" />
+              <point x="281.43333333333334" y="415.0" />
+              <point x="349.5" y="415.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.User" target="javax.persistence.Table">
+              <point x="0.0" y="-321.5" />
+              <point x="922.875" y="415.0" />
+              <point x="941.5" y="415.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="org.springframework.security.core.GrantedAuthority" target="java.io.Serializable">
+              <point x="0.0" y="-24.5" />
+              <point x="349.5" y="74.0" />
+              <point x="371.55833333333334" y="74.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.User" target="org.springframework.security.core.userdetails.UserDetails">
+              <point x="-115.33333333333331" y="-321.5" />
+              <point x="807.5416666666667" y="415.0" />
+              <point x="623.0" y="415.0" />
+              <point x="0.0" y="90.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="590.0" y="253.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+        <state relative-caret-position="624">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/frima/jNetwork/src/main/java/com/jNetwork/controller;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/dto;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/util;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/repos;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/service;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/util;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/com/jNetwork/controller;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/dto;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/util;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/repos;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/service;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/util;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="557.0" y="326.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/frima/jNetwork/src/main/java/com/jNetwork/controller;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/dto;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/util;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/repos;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/service;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/util;C:/Users/frima/jNetwork/src/main/resources;C:/Users/frima/jNetwork/src/main/resources/db;C:/Users/frima/jNetwork/src/main/resources/db/migration;C:/Users/frima/jNetwork/src/main/resources/static;C:/Users/frima/jNetwork/src/main/resources/templates;C:/Users/frima/jNetwork/src/main/resources/templates/parts;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/com/jNetwork/controller;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/dto;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/util;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/repos;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/service;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/util;C:/Users/frima/jNetwork/src/main/resources;C:/Users/frima/jNetwork/src/main/resources/db;C:/Users/frima/jNetwork/src/main/resources/db/migration;C:/Users/frima/jNetwork/src/main/resources/static;C:/Users/frima/jNetwork/src/main/resources/templates;C:/Users/frima/jNetwork/src/main/resources/templates/parts;</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl</node>
+            <node x="" y="">/img/${message.filename}</node>
+            <node x="" y="">/static/style.css</node>
+            <node x="" y="">https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js</node>
+            <node x="" y="">https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js</node>
+            <node x="" y="">https://code.jquery.com/jquery-3.3.1.slim.min.js</node>
+            <node x="" y="">https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css</node>
+            <node x="" y="">https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js</node>
+            <node x="" y="">https://use.fontawesome.com/releases/v5.3.1/css/all.css</node>
+            <node x="" y="">https://www.google.com/recaptcha/api.js</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="216.0" y="305.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jNetwork.domain.dto.CaptchaResponseDto">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.domain.dto.CaptchaResponseDto</OriginalElement>
+          <nodes>
+            <node x="" y="">com.jNetwork.domain.dto.MessageDto</node>
+            <node x="" y="">com.jNetwork.domain.dto.CaptchaResponseDto</node>
+            <node x="" y="">com.fasterxml.jackson.annotation.JsonIgnoreProperties</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="306.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jNetwork.controller.ControllerUtils">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.controller.ControllerUtils</OriginalElement>
+          <nodes>
+            <node x="" y="">com.jNetwork.controller.ControllerUtils</node>
+            <node x="" y="">com.jNetwork.controller.RegistrationController</node>
+            <node x="" y="">com.jNetwork.controller.UserController</node>
+            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+            <node x="" y="">com.jNetwork.controller.MessageController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="545.0" y="322.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jNetwork.service.MailSender">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.service.MailSender</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.stereotype.Service</node>
+            <node x="" y="">org.springframework.security.core.userdetails.UserDetailsService</node>
+            <node x="" y="">com.jNetwork.service.MessageService</node>
+            <node x="" y="">com.jNetwork.service.UserService</node>
+            <node x="" y="">com.jNetwork.service.MailSender</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="421.0" y="52.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jNetwork.repos.MessageRepo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.repos.MessageRepo</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+            <node x="" y="">org.springframework.data.repository.PagingAndSortingRepository</node>
+            <node x="" y="">org.springframework.data.repository.Repository</node>
+            <node x="" y="">org.springframework.stereotype.Indexed</node>
+            <node x="" y="">org.springframework.data.repository.CrudRepository</node>
+            <node x="" y="">com.jNetwork.repos.MessageRepo</node>
+            <node x="" y="">org.springframework.data.jpa.repository.JpaRepository</node>
+            <node x="" y="">com.jNetwork.repos.UserRepo</node>
+            <node x="" y="">org.springframework.data.repository.NoRepositoryBean</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="425.0" y="340.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.message">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.message</OriginalElement>
+          <nodes>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.usr</node>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.user_role</node>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.message</node>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.spring_session_attributes</node>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.user_subscriptions</node>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.message_likes</node>
+            <node x="" y="">10b3b530-74f7-4f2b-a62e-038a39d22b12.TABLE:JNetwork.public.spring_session</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="503.0" y="235.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/frima/jNetwork/src/main/java/com/jNetwork/config;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/controller;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/dto;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/util;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/repos;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/service;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/util;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/com/jNetwork/config;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/controller;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/dto;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/domain/util;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/repos;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/service;C:/Users/frima/jNetwork/src/main/java/com/jNetwork/util;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jNetwork.domain.dto.MessageDto">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jNetwork.domain.dto.MessageDto</OriginalElement>
+          <nodes>
+            <node x="1291.0444785276072" y="1053.7699386503068">com.jNetwork.config.MvcConfig</node>
+            <node x="1388.0" y="1553.5">com.jNetwork.controller.RegistrationController</node>
+            <node x="2711.0" y="1615.5">org.springframework.security.core.userdetails.UserDetailsService</node>
+            <node x="1715.0" y="2207.5">com.jNetwork.domain.dto.MessageDto</node>
+            <node x="835.0" y="2033.5">com.jNetwork.repos.MessageRepo</node>
+            <node x="591.0" y="2382.5">org.springframework.web.servlet.handler.HandlerInterceptorAdapter</node>
+            <node x="1137.5444785276072" y="81.76993865030681">org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter</node>
+            <node x="285.5" y="94.5">java.lang.Enum</node>
+            <node x="328.0" y="-24.5">com.jNetwork.domain.Role</node>
+            <node x="1222.0" y="1786.5">org.springframework.data.repository.Repository</node>
+            <node x="650.5444785276072" y="115.76993865030681">org.springframework.security.config.annotation.SecurityConfigurer</node>
+            <node x="332.0" y="2004.5">com.jNetwork.repos.UserRepo</node>
+            <node x="1452.5" y="2415.5">com.jNetwork.Application</node>
+            <node x="906.5" y="895.5">javax.persistence.Entity</node>
+            <node x="1939.0" y="2215.5">com.jNetwork.controller.ControllerUtils</node>
+            <node x="604.5" y="1524.5">org.springframework.data.repository.PagingAndSortingRepository</node>
+            <node x="877.0" y="1003.5">com.jNetwork.domain.Message</node>
+            <node x="2051.5" y="40.5">org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity</node>
+            <node x="1133.0" y="2422.5">com.jNetwork.domain.dto.CaptchaResponseDto</node>
+            <node x="87.5" y="-24.5">org.springframework.security.core.GrantedAuthority</node>
+            <node x="102.0" y="226.5">java.io.Serializable</node>
+            <node x="2578.5" y="1095.5">org.springframework.context.annotation.Configuration</node>
+            <node x="661.5444785276072" y="246.7699386503068">org.springframework.security.config.annotation.SecurityBuilder</node>
+            <node x="2019.0" y="244.5">com.jNetwork.config.WebSecurityConfig</node>
+            <node x="331.5" y="1665.5">org.springframework.data.jpa.repository.JpaRepository</node>
+            <node x="1829.0" y="1669.5">com.jNetwork.controller.MessageController</node>
+            <node x="1146.5" y="2222.5">com.fasterxml.jackson.annotation.JsonIgnoreProperties</node>
+            <node x="601.0" y="2575.5">com.jNetwork.util.RedirectInterceptor</node>
+            <node x="1787.0" y="1938.5">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="1503.5" y="1735.5">org.springframework.stereotype.Controller</node>
+            <node x="878.0" y="1665.5">org.springframework.data.repository.CrudRepository</node>
+            <node x="2307.0" y="2215.5">com.jNetwork.domain.util.MessageHelper</node>
+            <node x="640.5" y="1786.5">org.springframework.data.repository.NoRepositoryBean</node>
+            <node x="432.5" y="598.5">com.jNetwork.domain.User</node>
+            <node x="480.0" y="1331.5">javax.persistence.Table</node>
+            <node x="2423.5" y="1815.5">org.springframework.stereotype.Service</node>
+            <node x="1.0" y="2233.5">org.springframework.web.servlet.HandlerInterceptor</node>
+            <node x="-7.5" y="829.5">org.springframework.security.core.userdetails.UserDetails</node>
+            <node x="1233.0" y="1906.5">org.springframework.stereotype.Indexed</node>
+            <node x="1286.0444785276072" y="-33.23006134969319">org.springframework.core.annotation.Order</node>
+            <node x="1404.5" y="2222.5">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+            <node x="2777.0" y="1095.5">com.jNetwork.config.MailConfig</node>
+            <node x="2620.5" y="1815.5">com.jNetwork.service.MailSender</node>
+            <node x="2515.5" y="1215.5">com.jNetwork.config.EncriptionConfig</node>
+            <node x="876.0444785276072" y="257.7699386503068">org.springframework.security.config.annotation.web.WebSecurityConfigurer</node>
+            <node x="-10.0" y="1720.5">org.springframework.data.repository.query.QueryByExampleExecutor</node>
+            <node x="2364.0" y="255.5">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+            <node x="-9.0" y="2415.5">org.springframework.web.servlet.AsyncHandlerInterceptor</node>
+            <node x="1408.0" y="1938.5">com.jNetwork.controller.UserController</node>
+            <node x="2335.5" y="1527.5">com.jNetwork.service.UserService</node>
+            <node x="2297.0" y="1924.5">com.jNetwork.service.MessageService</node>
+            <node x="336.5" y="455.5">java.lang.Comparable</node>
+            <node x="1231.5444785276072" y="539.7699386503068">org.springframework.web.servlet.config.annotation.WebMvcConfigurer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.jNetwork.service.UserService" target="org.springframework.security.core.userdetails.UserDetailsService">
+              <point x="144.5" y="0.0" />
+              <point x="-129.0" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.config.MailConfig" target="org.springframework.context.annotation.Configuration">
+              <point x="-103.0" y="0.0" />
+              <point x="61.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.config.MvcConfig" target="org.springframework.context.annotation.Configuration">
+              <point x="159.0" y="0.0" />
+              <point x="-61.5" y="0.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+              <point x="122.0" y="0.0" />
+              <point x="-58.0" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.config.WebSecurityConfig" target="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter">
+              <point x="-141.0" y="0.0" />
+              <point x="192.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.controller.UserController" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="152.0" y="0.0" />
+              <point x="-93.0" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.domain.dto.CaptchaResponseDto" target="com.fasterxml.jackson.annotation.JsonIgnoreProperties">
+              <point x="0.0" y="-57.5" />
+              <point x="0.0" y="57.5" />
+            </edge>
+            <edge source="com.jNetwork.controller.MessageController" target="org.springframework.stereotype.Controller">
+              <point x="-211.0" y="0.0" />
+              <point x="56.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.domain.User" target="javax.persistence.Entity">
+              <point x="167.5" y="0.0" />
+              <point x="-53.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.domain.User" target="javax.persistence.Table">
+              <point x="0.0" y="321.5" />
+              <point x="0.0" y="-68.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.Role" target="org.springframework.security.core.GrantedAuthority">
+              <point x="-72.0" y="0.0" />
+              <point x="72.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.domain.User" target="org.springframework.security.core.userdetails.UserDetails">
+              <point x="-167.5" y="0.0" />
+              <point x="167.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.repos.MessageRepo" target="org.springframework.data.repository.CrudRepository">
+              <point x="0.0" y="-46.5" />
+              <point x="0.0" y="134.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="108.5" y="0.0" />
+              <point x="-79.5" y="0.0" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.web.WebSecurityConfigurer" target="org.springframework.security.config.annotation.SecurityBuilder">
+              <point x="-94.0" y="0.0" />
+              <point x="68.5" y="0.0" />
+            </edge>
+            <edge source="org.springframework.web.servlet.handler.HandlerInterceptorAdapter" target="org.springframework.web.servlet.AsyncHandlerInterceptor">
+              <point x="-249.0" y="0.0" />
+              <point x="249.0" y="0.0" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="-114.5" y="0.0" />
+              <point x="58.0" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.domain.Role" target="java.lang.Enum">
+              <point x="0.0" y="24.5" />
+              <point x="0.0" y="-145.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.CrudRepository">
+              <point x="115.5" y="0.0" />
+              <point x="1000.0" y="1560.0" />
+              <point x="0.0" y="-134.5" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.SecurityConfigurer" target="org.springframework.security.config.annotation.SecurityBuilder">
+              <point x="0.0" y="35.5" />
+              <point x="0.0" y="-24.5" />
+            </edge>
+            <edge source="com.jNetwork.util.RedirectInterceptor" target="org.springframework.web.servlet.handler.HandlerInterceptorAdapter">
+              <point x="0.0" y="-24.5" />
+              <point x="0.0" y="57.5" />
+            </edge>
+            <edge source="com.jNetwork.domain.Message" target="javax.persistence.Entity">
+              <point x="0.0" y="-156.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.jNetwork.config.MvcConfig" target="org.springframework.web.servlet.config.annotation.WebMvcConfigurer">
+              <point x="0.0" y="-57.5" />
+              <point x="0.0" y="211.5" />
+            </edge>
+            <edge source="com.jNetwork.config.WebSecurityConfig" target="org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity">
+              <point x="0.0" y="-35.5" />
+              <point x="0.0" y="79.5" />
+            </edge>
+            <edge source="com.jNetwork.config.EncriptionConfig" target="org.springframework.context.annotation.Configuration">
+              <point x="0.0" y="-24.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.jNetwork.Application" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+              <point x="0.0" y="-24.5" />
+              <point x="0.0" y="57.5" />
+            </edge>
+            <edge source="org.springframework.data.repository.PagingAndSortingRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="0.0" y="35.5" />
+              <point x="0.0" y="-13.5" />
+            </edge>
+            <edge source="com.jNetwork.controller.RegistrationController" target="org.springframework.stereotype.Controller">
+              <point x="0.0" y="46.5" />
+              <point x="0.0" y="-24.5" />
+            </edge>
+            <edge source="com.jNetwork.repos.UserRepo" target="org.springframework.data.jpa.repository.JpaRepository">
+              <point x="0.0" y="-35.5" />
+              <point x="0.0" y="134.5" />
+            </edge>
+            <edge source="org.springframework.web.servlet.AsyncHandlerInterceptor" target="org.springframework.web.servlet.HandlerInterceptor">
+              <point x="0.0" y="-24.5" />
+              <point x="0.0" y="46.5" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity" target="org.springframework.context.annotation.Configuration">
+              <point x="76.0" y="0.0" />
+              <point x="2600.0" y="280.0" />
+              <point x="-40.0" y="-24.5" />
+            </edge>
+            <edge source="com.jNetwork.service.MailSender" target="org.springframework.stereotype.Service">
+              <point x="-99.5" y="0.0" />
+              <point x="56.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.service.UserService" target="org.springframework.stereotype.Service">
+              <point x="0.0" y="112.5" />
+              <point x="0.0" y="-24.5" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter" target="org.springframework.core.annotation.Order">
+              <point x="0.0" y="-189.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="org.springframework.security.core.userdetails.UserDetails" target="java.io.Serializable">
+              <point x="0.0" y="-90.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.query.QueryByExampleExecutor">
+              <point x="-108.5" y="0.0" />
+              <point x="130.0" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.config.WebSecurityConfig" target="org.springframework.context.annotation.Configuration">
+              <point x="0.0" y="35.5" />
+              <point x="2160.0" y="1106.6666666666667" />
+              <point x="-61.5" y="-13.333333333333258" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.lang.Comparable">
+              <point x="0.0" y="145.5" />
+              <point x="0.0" y="-24.5" />
+            </edge>
+            <edge source="org.springframework.security.core.GrantedAuthority" target="java.io.Serializable">
+              <point x="0.0" y="24.5" />
+              <point x="0.0" y="-13.5" />
+            </edge>
+            <edge source="com.jNetwork.service.MessageService" target="org.springframework.stereotype.Service">
+              <point x="0.0" y="-35.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter" target="org.springframework.security.config.annotation.web.WebSecurityConfigurer">
+              <point x="-192.5" y="0.0" />
+              <point x="94.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.web.WebSecurityConfigurer" target="org.springframework.security.config.annotation.SecurityConfigurer">
+              <point x="0.0" y="-13.5" />
+              <point x="970.0444785276072" y="151.2699386503068" />
+              <point x="79.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.controller.UserController" target="org.springframework.stereotype.Controller">
+              <point x="0.0" y="-101.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity" target="org.springframework.context.annotation.Configuration">
+              <point x="108.5" y="0.0" />
+              <point x="2640.0" y="120.0" />
+              <point x="0.0" y="-24.5" />
+            </edge>
+            <edge source="org.springframework.data.jpa.repository.JpaRepository" target="org.springframework.data.repository.PagingAndSortingRepository">
+              <point x="0.0" y="-134.5" />
+              <point x="440.0" y="1560.0" />
+              <point x="-115.5" y="0.0" />
+            </edge>
+            <edge source="com.jNetwork.config.WebSecurityConfig" target="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity">
+              <point x="141.0" y="0.0" />
+              <point x="-76.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+              <point x="-122.0" y="0.0" />
+              <point x="79.5" y="0.0" />
+            </edge>
+            <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed">
+              <point x="0.0" y="13.5" />
+              <point x="0.0" y="-13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.45818692902319047" x="1820.0" y="2059.0" />
+          <SelectedNodes>
+            <node>org.springframework.security.config.annotation.SecurityBuilder</node>
+            <node>org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter</node>
+            <node>org.springframework.core.annotation.Order</node>
+            <node>com.jNetwork.config.MvcConfig</node>
+            <node>org.springframework.security.config.annotation.SecurityConfigurer</node>
+            <node>org.springframework.web.servlet.config.annotation.WebMvcConfigurer</node>
+            <node>org.springframework.security.config.annotation.web.WebSecurityConfigurer</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/message_likes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4df17c68-663c-4e3c-8a0e-200fc805f5fc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/spring_session_attributes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4df17c68-663c-4e3c-8a0e-200fc805f5fc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/usr">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4df17c68-663c-4e3c-8a0e-200fc805f5fc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://10b3b530-74f7-4f2b-a62e-038a39d22b12/database/JNetwork/schema/public/table/message">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="4df17c68-663c-4e3c-8a0e-200fc805f5fc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="77" column="37" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="28" lean-forward="true" selection-end-line="176" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/ControllerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/repos/MessageRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#164#1" expanded="true" />
+            <element signature="e#0#183#1" expanded="true" />
+            <element signature="e#0#189#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/domain/dto/MessageDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jNetwork/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/pager.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
         </state>
       </provider>
     </entry>
